@@ -31,7 +31,7 @@ public class Game implements Runnable {
     public Game(String[] args) {
         initGameWindow();
         if (args.length > 0) {
-                player = new Player(args[0]);
+            player = new Player(args[0]);
         } else {
             player = new Player();
         }
